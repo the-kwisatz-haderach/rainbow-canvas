@@ -5,4 +5,4 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('.'));
 
-app.listen(3000, () => console.log(`Server listening on port ${PORT}...`));
+app.listen(PORT, () => console.log(`Server listening on port ${PORT}...`));
